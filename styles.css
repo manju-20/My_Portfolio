@@ -316,9 +316,9 @@ img{
     border: none;
 }
 
-.button:hover{
+/* .button:hover{
   background-color: var(--first-color-alt);   
-}
+} */
 
 .button_icon{
     font-size: 1.25rem;
@@ -1156,9 +1156,9 @@ body.dark-theme{
         justify-content: space-between;
     }
 
-    .about_buttons{
+/*     .about_buttons{
         justify-content: initial;
-    }
+    } */
 
     .qualification_tabs{
         justify-content: center;
