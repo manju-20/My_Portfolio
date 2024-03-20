@@ -334,28 +334,9 @@ img{
     display: none;
 }
 
-.about_img{
-    /* width: 200px;
-    height: 380px; */
-    border-radius: .5rem;
-    justify-self: center;
-    align-self: center;
-}
-
 .about_decription{
     text-align: center;
     margin-bottom: var(--mb-2-5);
-}
-
-.about_buttons{
-    display: flex;
-    justify-content: center;
-    margin-top: 25px;
-    
-}
-
-.about_buttons:hover{
-    background-color: var(--first-color-alt);   
 }
 
 .skills_container{
@@ -769,35 +750,6 @@ span.change{
     outline: none;
 }
 
-.project{
-    text-align: center;
-}
-
-.project_bg{
-    background-color: var(--first-color-second);
-    padding-top: 3rem;
-}
-
-.project_title{
-    font-size: var(--h2-font-size);
-    margin-bottom: var(--mb-0-25);
-}
-
-.project_description{
-    margin-bottom: var(--mb-1-5);
-}
-
-.project_title,
-.project_description{
-    color: #FFF;
-}
-
-.project_img{
-   width: 250px;
-   justify-self: center; 
-   padding-left: 10px;
-}
-
 .button--white{
     background-color: #FFF;
     color: var(--first-color);
@@ -1019,9 +971,6 @@ body.dark-theme{
     .services_modal{
         padding: 0 .5rem;
     }
-    .project_img{
-        width: 200px;
-    }
 
 }
 
@@ -1044,13 +993,7 @@ body.dark-theme{
         justify-content: center;
     }
 
-    .about_buttons .button{
-        text-align: right;
-    }
-
     .skills_container,
-    .about_container,
-    .project_container,
     .contact_container,
     .footer_container{
         grid-template-columns: repeat(2, 1fr);
@@ -1145,19 +1088,11 @@ body.dark-theme{
     .about_container{
         column-gap: 5rem;
     }
-    .about_img{
-        height: 350px;
-        width: 400px;
-    }
     .about_description{
         text-align: justify;
     }
     .about_info{
         justify-content: space-between;
-    }
-
-    .about_buttons{
-        justify-content: initial;
     }
 
     .qualification_tabs{
@@ -1186,23 +1121,6 @@ body.dark-theme{
     }
     .portfolio_content{
         align-items: center;
-    }
-
-    .project{
-        text-align: initial;
-    }
-    .project_bg{
-        background: none;
-    }
-    .project_container{
-        background-color: var(--first-color-second);
-        border-radius: 1rem;
-        padding: 3rem 2.5rem 0;
-        grid-template-columns: 1fr max-content;
-        column-gap: 3rem;
-    }
-    .project_data{
-        padding-top: .8rem;
     }
 
     .swiper-button-prev{
@@ -1252,11 +1170,6 @@ body.dark-theme{
 
     .home_social{
         transform: translateX(-6rem);
-    }
-
-    .about_img{
-        height: 350px;
-        width: 400px;
     }
 
     .services_container{
