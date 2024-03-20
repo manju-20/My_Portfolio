@@ -1219,4 +1219,24 @@ span.tech{
 
     color: var(--first-color);
     font-weight: 600;
-} 
+}
+
+.cv_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.cv_btn .btn_1{
+    background-color: var(--first-color);
+    color: #FFF;
+    padding: 1rem;
+    border-radius: .5rem;
+    font-weight: var(--font-medium);
+    border: none;
+}
+
+.cv_btn .btn_1:hover{
+    background-color: var(--first-color-alt);
+}
