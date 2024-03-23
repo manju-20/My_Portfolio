@@ -1240,3 +1240,15 @@ span.tech{
 .cv_btn .btn_1:hover{
     background-color: var(--first-color-alt);
 }
+#form{
+    position: relative;
+}
+#form span{
+    position: absolute;
+    left: 0;
+    color: green;
+}
+
+#result{
+  margin-left: 30px;
+}

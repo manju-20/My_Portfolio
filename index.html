@@ -742,33 +742,34 @@
                     </div>
                 </div>
 
-                <form  action="https://api.web3forms.com/submit" method="POST" class="contact_form grid">
+                <form  method="POST" class="contact_form grid"  id="form">
     
                     <input type="hidden" name="access_key" value="4dff6ebf-4d49-49c1-a037-61ef1e1110cf">
                     <div class="contact_input grid">
                         <div>
                             <div class="contact_contact">
                                 <label for="" class="for contact_label">Name</label>
-                                <input type="text" name="name"  placeholder=" Your Name" class="type contact_input">
+                                <input type="text" name="name"  placeholder=" Your Name" class="type contact_input" required>
                             </div>
                         </div>
                         <div>
                             <div class="contact_contact">
                                <label for="" class="for contact_label">Email</label>
-                               <input type="email" class="type contact_input"  placeholder="abc@gmail.com" name="email">
+                               <input type="email" class="type contact_input"  placeholder="abc@gmail.com" name="email" required>
                              </div>
                         </div>        
                     </div>
                     <div class="contact_contact">
                         <label for="" class="for contact_label">Message</label>
-                        <textarea id="" cols="0" rows="7" class="type contact_input" name="message" ></textarea>
+                        <textarea  id="" cols="0" rows="7" class="contact_input" name="message" required ></textarea>
                     </div>
                     <div> 
-                        <button class="button button--flex">
+                        <button class="button button--flex" >
                           Send Message
                           <i class="uil uil-message button_icon"></i>
                         </button>
                     </div>
+                    <div id="result"></div>
                 </form>
             </div>
         </section>
